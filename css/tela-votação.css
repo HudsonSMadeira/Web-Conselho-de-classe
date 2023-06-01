@@ -155,10 +155,17 @@ header .container{
     justify-content: center;
 }
 
- .container .slide-container h1 {
-    margin-top: 20px;
-    padding: 10px;
+.container .slide-container .cursoTurma h1 {
+    margin-top: 10px;
+    padding: 5px;
     font-size: 35px;
+    text-align: center;
+    color: var(--darkOne);
+}
+
+.container .slide-container .cursoTurma h2 {
+    margin-top: 20px;
+    font-size: 25px;
     text-align: center;
     color: var(--darkOne);
 }
